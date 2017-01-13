@@ -1,0 +1,184 @@
+/*
+    Color scheme for this website:
+#039684: the teal one
+#515764: blueish
+#D57C68: peach suggested peach
+#B29C94: greyish
+*/
+         
+header{ 
+max-width: 100%;
+}
+    button { 
+    font-size: 1.1em;
+    background-color: #E6A395;
+    color: #000000;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #639999;
+  }
+  button:hover, button:focus, button:active { 
+    /* swap colors */
+    color: #E6A395;
+    background-color: #000000;
+    cursor: pointer; /* displays a hand */
+  }
+        body {
+                font-size: 1em;
+                font-weight: normal;
+                font-family: Verdana, Geneva, Sans-serif;
+                color: #000000;
+                text-align: center;
+                /* margin-left:20%;
+                margin-right:10%; */ 
+                width: 100%;
+                
+                margin: 0 auto;
+                background-color: bisque;
+                
+                }
+       
+        h1 {
+                font-weight: bold;
+                font-family: "Trebuchet MS", Tahoma, sans-serif;
+                color: #B29C94;
+                text-align: center;
+                font-size: 1.8em; font-weight: 700;
+    }
+     
+        h2 {
+                text-decoration: underline;
+                text-align: center;
+                -moz-text-align-last: center;
+                text-align-last: center;
+                font-size: 2em;
+                color: black;
+                margin-top: 3em;
+                margin-bottom: 2em;
+            }
+
+        h3 {
+                text-decoration: underline;
+                color: #515764;
+                font-size: 1.4em;
+            text-align: center;
+            }
+        p {
+                font-size: 1.2em;
+                text-align: center;
+                margin-left: .5em;
+                margin-right: .5em;
+                
+            }
+       
+
+div {
+            text-align: center;
+            padding: 10px 40px;
+            width: 300px;
+            border-radius: 25px;
+            }
+/*elements with ids and classes*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #039684;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    background-color: #039684;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+li a:hover {
+    background-color: white;
+    color: #039684;
+}
+
+/*#skipnav{
+    width: 20em;
+        }
+nav { 
+    clear: left;
+    padding-bottom: 0.25em;
+}
+nav ul {
+    list-style-type: none;
+    padding-bottom: inherit;
+}
+nav ul li {
+    float: left;
+    margin-right: 0.5em;
+}
+nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none;
+    background-color: #E6A395;
+    color: black;
+    border: 2px solid black;
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: #639999;
+    background-color: white;
+    font-weight: bold;
+}
+div#skipnav {
+    top: 5px; 
+    left: 5px;
+    position: relative; */
+}
+ div.info { 
+    width: 40%;
+    font-size: 1.2em;
+    float: left;
+} 
+.info{
+    width: 40%;
+    font-size: 1.2em
+}
+main, main p{
+    color: black;
+    font-style: normal;
+}
+main p{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+main p#overview{
+    /*cancel out the above style for overview*/
+    margin-left: 1em;
+    font-size: 1.1em;
+}
+main p.temp{
+    font-style: italic;
+}
+a { 
+    color: black;
+    background-color: white;
+  }
+  a:hover, a:focus { 
+    color: white;
+    background-color: black;
+  }
+
+/* MEDIUM SCREEN */
+@media screen and (max-width: 840px) { 
+    header{width: 100%;}  
+}
+/* SMALL SCREEN */
+@media screen and (max-width: 425px) {
+    header{width:  100%;}
+    
+}
+  </style>
